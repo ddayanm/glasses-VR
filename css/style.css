@@ -264,6 +264,20 @@ nav a:focus {
   border-left: 0.1px solid #4f4969;
   font-size: 60px;
 }
+.btn-about button {
+  font-size: clamp(0.5rem, 0.417rem + 0.42vw, 0.75rem);
+  font-weight: 700;
+  padding: 13px 40px;
+  border-radius: 30px;
+  background: rgb(135, 125, 181);
+  background: linear-gradient(
+    90deg,
+    rgba(135, 125, 181, 1) 26%,
+    rgba(160, 150, 203, 1) 67%,
+    rgba(187, 178, 227, 1) 100%
+  );
+  color: #343045;
+}
 
 /* ! main end */
 
@@ -305,6 +319,7 @@ nav a:focus {
   font-weight: 300;
   font-size: clamp(0.875rem, 0.83rem + 0.23vw, 1rem);
 }
+
 /* ! INTRODUCTION END */
 
 /* ! ABOUT START */

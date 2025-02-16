@@ -29,19 +29,19 @@
   .main-contact {
     flex-direction: column;
   }
+  .build {
+    flex-direction: column; /* Карточки идут в колонку */
+    align-items: center;
+  }
 
-  /* .cart {
-    align-items: flex-start;
-  } */
-  /* .cart:nth-child(2) {
-    display: none;
+  .cart {
+    max-width: 90%; /* Немного сужаем карточки */
   }
-  .cart:nth-child(3) {
-    display: none;
+
+  .cart {
+    width: 100%;
+    max-width: 250px;
   }
-  .cart:nth-child(4) {
-    display: none;
-  } */
 }
 
 @media (max-width: 845px) {
@@ -97,6 +97,15 @@
     display: none;
   }
   .why-content ion-icon {
+    display: none;
+  }
+  .cart:nth-child(2) {
+    display: none;
+  }
+  .cart:nth-child(3) {
+    display: none;
+  }
+  .cart:nth-child(4) {
     display: none;
   }
 }
