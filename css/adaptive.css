@@ -1,0 +1,114 @@
+@media (max-width: 909px) {
+  .nav {
+    display: none;
+  }
+  .header-btn {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .header-logo {
+    width: 100%;
+    max-width: 75px;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-content {
+    display: flex;
+    align-items: center;
+  }
+
+  .about-content h4 {
+    display: none;
+  }
+  .main-contact {
+    flex-direction: column;
+  }
+
+  /* .cart {
+    align-items: flex-start;
+  } */
+  /* .cart:nth-child(2) {
+    display: none;
+  }
+  .cart:nth-child(3) {
+    display: none;
+  }
+  .cart:nth-child(4) {
+    display: none;
+  } */
+}
+
+@media (max-width: 845px) {
+  .main {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .main-content {
+    align-items: center;
+  }
+  .main-content h1 {
+    text-align: center;
+    line-height: 35px;
+  }
+
+  .main-content p {
+    display: none;
+  }
+  .icon {
+    display: none;
+  }
+  .main-img img {
+    width: 100%;
+    max-width: 340px;
+  }
+  .btn-main button {
+    font-size: 12px;
+    padding: 10px 35px;
+  }
+
+  .introduction-content {
+    justify-content: center;
+  }
+  .introduction-content h4 {
+    text-align: center;
+  }
+
+  .introduction-content p {
+    display: none;
+  }
+  .introduction-content ion-icon {
+    display: none;
+  }
+
+  .why-content {
+    justify-content: center;
+  }
+  .why-content h4 {
+    text-align: center;
+  }
+
+  .why-content p {
+    display: none;
+  }
+  .why-content ion-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 1168px) {
+  .about img {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 960px) {
+  .about img {
+    max-width: 350px;
+  }
+}
