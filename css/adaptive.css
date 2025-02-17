@@ -30,12 +30,12 @@
     flex-direction: column;
   }
   .build {
-    flex-direction: column; /* Карточки идут в колонку */
+    flex-direction: column;
     align-items: center;
   }
 
   .cart {
-    max-width: 90%; /* Немного сужаем карточки */
+    max-width: 90%;
   }
 
   .cart {
@@ -82,21 +82,89 @@
   .introduction-content p {
     display: none;
   }
-  .introduction-content ion-icon {
+
+  .all {
+    display: block;
+  }
+
+  #c-main {
+    display: none;
+  }
+  .next-adaptiv {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 20px;
+  }
+
+  .main-contact {
     display: none;
   }
 
-  .why-content {
+  .about {
+    flex-direction: column;
+  }
+  .about-main {
+    flex-direction: column;
+  }
+
+  .about-next-contnent p {
+    display: none;
+  }
+  .about-next {
+    flex-direction: column;
+  }
+  .about-next img {
+    width: 100%;
+  }
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .about-content img {
+    display: none;
+  }
+  .about-main p {
+    display: none;
+  }
+  .about-next .h {
+    display: none;
+  }
+  .about-next-contnent {
+    align-items: center;
+  }
+  .about-next-contnent button {
+    width: 200px;
+    height: 30px;
+  }
+  .main-content p {
+    line-height: 25px;
+    max-width: 450px;
+    font-size: clamp(0.875rem, 0.833rem + 0.21vw, 1rem);
+  }
+
+  .main-contact img {
+    max-width: 40px;
+  }
+
+  .why {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
-  .why-content h4 {
-    text-align: center;
-  }
-
-  .why-content p {
+  .why-content h2 img {
     display: none;
   }
-  .why-content ion-icon {
+
+  .why .loremm p {
+    display: none;
+  }
+  .why-content img {
     display: none;
   }
   .cart:nth-child(2) {
@@ -107,17 +175,5 @@
   }
   .cart:nth-child(4) {
     display: none;
-  }
-}
-
-@media (max-width: 1168px) {
-  .about img {
-    max-width: 400px;
-  }
-}
-
-@media (max-width: 960px) {
-  .about img {
-    max-width: 350px;
   }
 }

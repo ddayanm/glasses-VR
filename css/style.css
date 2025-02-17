@@ -134,7 +134,7 @@ nav a:focus {
   font-size: clamp(1.25rem, 1.104rem + 0.73vw, 1.688rem);
 }
 
-/* ! main start */
+/* ? MAIN START */
 #main {
   padding-block: 70px;
 }
@@ -197,11 +197,6 @@ nav a:focus {
   color: #343045;
 }
 
-.btn-main .icon ion-icon {
-  font-size: 50px;
-  color: #c0b7e8;
-}
-
 .main-img {
   display: flex;
   justify-content: flex-end;
@@ -211,8 +206,8 @@ nav a:focus {
   max-width: 450px;
 }
 
-#contact {
-  padding-top: 90px;
+#c-main {
+  padding-top: 60px;
 }
 
 .main-contact {
@@ -279,9 +274,43 @@ nav a:focus {
   color: #343045;
 }
 
-/* ! main end */
+/* ? MAIN START */
 
-/* ! INTRODUCTION START */
+/* ? ALL START */
+
+.all {
+  padding-block: 30px;
+  display: none;
+}
+.next-adaptiv {
+  width: 100%;
+  display: none;
+  justify-content: space-between;
+  padding: 28px;
+  border-radius: 100px;
+  background: rgb(59, 54, 84);
+  background: radial-gradient(
+    circle,
+    rgba(59, 54, 84, 1) 22%,
+    rgba(58, 53, 82, 1) 24%,
+    rgba(32, 30, 45, 1) 67%
+  );
+}
+
+.next-adaptiv p {
+  font-size: clamp(0.75rem, 0.708rem + 0.21vw, 0.875rem);
+  font-weight: 400;
+}
+.next-adaptiv img {
+  max-width: 25px;
+}
+.next-adaptiv ion-icon {
+  font-size: 35px;
+  color: white;
+}
+/* ? ALL END */
+
+/* ? INTRODUCTION START */
 #introduction {
   padding-block: 30px;
 }
@@ -320,50 +349,75 @@ nav a:focus {
   font-size: clamp(0.875rem, 0.83rem + 0.23vw, 1rem);
 }
 
-/* ! INTRODUCTION END */
+/* ? INTRODUCTION END */
 
-/* ! ABOUT START */
-#about {
-  padding-block: 40px;
-}
+/* ? ABOUT START */
 
-.about {
-  display: flex;
-  gap: 110px;
-}
-
-.about img {
+.about-main {
   width: 100%;
-  max-width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 70px;
 }
-
-.about-content {
+.about-content h1 {
+  font-weight: 700;
+  font-size: clamp(1.625rem, 1.417rem + 1.04vw, 2.25rem);
+  line-height: 60px;
+}
+.about-content h2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 300;
+  font-size: clamp(1.625rem, 1.417rem + 1.04vw, 2.25rem);
+}
+.about-content img {
+  max-width: 100px;
+}
+.lorem {
+  max-width: 652px;
+}
+.lorem p {
+  line-height: 25px;
+  font-weight: 400;
+  font-size: clamp(0.75rem, 0.667rem + 0.42vw, 1rem);
+  color: #fff;
+}
+.about-next {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+.about-next img {
+  max-width: 424px;
+}
+.about-next-contnent {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: flex-start;
-  gap: 50px;
+  gap: 30px;
 }
 
-.about-content h4 {
+.about-next-contnent h1 {
   font-size: clamp(1.125rem, 0.898rem + 1.14vw, 1.75rem);
   line-height: 45px;
-  display: flex;
-  flex-direction: column;
+  font-weight: 700;
 }
-
-.about-content h4 span {
-  font-size: clamp(1.063rem, 0.835rem + 1.14vw, 1.688rem);
-  font-weight: 200;
+.about-next-contnent h2 {
+  font-weight: 300;
+  font-size: 36px;
 }
-
-.about-content p {
+.about-next-contnent p {
   line-height: 25px;
-  color: #ffffff;
+  max-width: 630px;
+  color: #fff;
   font-weight: 300;
 }
-
-.btn-about button {
+.about-next-contnent button {
   font-size: clamp(0.5rem, 0.417rem + 0.42vw, 0.75rem);
   font-weight: 700;
   padding: 13px 40px;
@@ -378,49 +432,46 @@ nav a:focus {
   color: #343045;
 }
 
-/* ! ABOUT END */
+/* ? ABOUT END */
 
-/* ! INTRODUCTION START */
+/* ? WHY BUILD START */
 #why {
-  padding-block: 30px;
+  padding-block: 50px;
 }
-
-.why-content {
+.why {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  gap: 20px;
-}
-
-.why-content h4 {
-  font-size: clamp(1.125rem, 0.898rem + 1.14vw, 1.75rem);
-  line-height: 45px;
-  display: flex;
-  flex-direction: column;
-}
-
-.why-content h4 span {
-  font-size: clamp(1.063rem, 0.835rem + 1.14vw, 1.688rem);
-  font-weight: 200;
-  display: flex;
   align-items: center;
+}
+.why-content h1 {
+  font-weight: 700;
+  font-size: clamp(1.625rem, 1.417rem + 1.04vw, 2.25rem);
+  line-height: 50px;
+}
+.why-content h2 {
+  display: flex;
+
   gap: 20px;
-}
-
-.why-content h4 span ion-icon {
-  font-size: 40px;
-}
-
-.why-content p {
-  width: 100%;
-  max-width: 650px;
-  line-height: 23px;
-  color: #ffffffdf;
   font-weight: 300;
-  font-size: clamp(0.875rem, 0.83rem + 0.23vw, 1rem);
+  font-size: clamp(1.625rem, 1.417rem + 1.04vw, 2.25rem);
 }
-/* ! WHY BUILD  END */
+.why-content img {
+  max-width: 100px;
+}
+.loremm {
+  max-width: 652px;
+}
+.loremm p {
+  line-height: 25px;
+  font-weight: 400;
+  font-size: clamp(0.75rem, 0.667rem + 0.42vw, 1rem);
+  color: #fff;
+}
 
-/* !  BUILD  START */
+/* ? WHY BUILD  END */
+
+/* ?  BUILD  START */
 
 #build {
   padding-block: 40px;
@@ -492,4 +543,4 @@ nav a:focus {
   );
   color: #343045;
 }
-/* !  BUILD  END */
+/* ?  BUILD  END */
