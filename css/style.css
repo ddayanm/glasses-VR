@@ -207,7 +207,7 @@ nav a:focus {
 }
 
 #c-main {
-  padding-top: 60px;
+  padding-top: 45px;
 }
 
 .main-contact {
@@ -314,9 +314,9 @@ nav a:focus {
 }
 /* ? ALL END */
 
-/* ? INTRODUCTION START */
+/* ? INTRODUCTION START
 #introduction {
-  padding-block: 30px;
+  padding-block: 100px;
 }
 
 .introduction-content {
@@ -351,7 +351,7 @@ nav a:focus {
   color: #ffffffdf;
   font-weight: 300;
   font-size: clamp(0.875rem, 0.83rem + 0.23vw, 1rem);
-}
+} */
 
 /* ? INTRODUCTION END */
 
@@ -363,7 +363,7 @@ nav a:focus {
   justify-content: space-between;
   align-items: center;
   gap: 15px;
-  padding-bottom: 70px;
+  padding: 20px;
 }
 .about-content h1 {
   font-weight: 600;
@@ -443,7 +443,7 @@ nav a:focus {
 
 /* ? WHY BUILD START */
 #why {
-  padding-block: 50px;
+  padding-block: 20px;
 }
 .why {
   width: 100%;
@@ -569,13 +569,13 @@ nav a:focus {
 .hardware-content h1 {
   padding: 110px;
   font-weight: 700;
-  font-size: clamp(1.625rem, 1.417rem + 1.04vw, 2.25rem);
+  font-size: clamp(0.438rem, -0.199rem + 3.18vw, 2.188rem);
   color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 6px;
 }
 
 .hardware-content h1 p {
@@ -584,18 +584,18 @@ nav a:focus {
 
 .hardware-content .icons {
   background-color: #201e29;
-  width: 70px;
-  height: 70px;
-  border-radius: 65px;
+  width: 60px;
+  height: 60px;
+  border-radius: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  top: 47px;
-  left: 0;
+  top: 62px;
 }
 
 .hardware-content ion-icon {
+  font-size: 30px;
   padding: 7px;
   border-radius: 40px;
   background: rgb(135, 125, 181);
@@ -615,18 +615,52 @@ nav a:focus {
   width: 100%;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  gap: 20px;
 }
 
 .hardware .hardware-img {
   width: 100%;
   display: flex;
+  gap: 20px;
 }
 
 .hardware .img img {
-  padding: 20px;
   width: 100%;
-  max-width: 220px;
+  max-width: 250px;
 }
+
+/* ? icon */
+
+.hardware-content .icon {
+  background-color: #201e29;
+  width: 60px;
+  height: 60px;
+  border-radius: 45px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 62px;
+}
+
+.hardware-content .icon ion-icon {
+  font-size: 30px;
+  padding: 7px;
+  border-radius: 40px;
+  background: rgb(135, 125, 181);
+  background: linear-gradient(
+    90deg,
+    rgba(135, 125, 181, 1) 26%,
+    rgba(160, 150, 203, 1) 67%,
+    rgba(187, 178, 227, 1) 100%
+  );
+  color: #433d60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* ? icon */
+
 /* ?  HARDWARE  END */

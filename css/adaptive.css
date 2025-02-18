@@ -132,7 +132,6 @@
   }
   .about-next-contnent button {
     width: 200px;
-    height: 30px;
   }
   .main-content p {
     line-height: 25px;
@@ -165,38 +164,104 @@
   .cart:nth-child(2) {
     display: none;
   }
-  /* .why-content img {
+  .img:nth-child(3) {
     display: none;
   }
-  .cart:nth-child(2) {
-    display: none;
-  }
-  .cart:nth-child(3) {
-    display: none;
-  }
-  .cart:nth-child(4) {
-    display: none;
-  } */
+  .img {
+    width: 100%;
+    max-width: 140px;
+}
+ /* .hardware-content .icon {
+  display: flex;
+  top: 0px;
+  right: 153px;
+  
+}  */
+.hardware .hardware-img {
+  justify-content: center;
+  align-items: center;
 }
 
-/* @media (max-width: 888px) {
-  .why-content img {
-    display: none;
+}
+@media (max-width: 716px) {
+  .hardware-content {
+    border-radius: 290px;
+    background: url("../image/woman.svg");
   }
-  .cart:nth-child(2) {
-    display: none;
-  }
-  .cart:nth-child(3) {
-    display: none;
-  }
-  .cart:nth-child(4) {
-    display: none;
-  }
+}
+@media (max-width: 820px) {
   .hardware-content {
     width: 100%;
-    height: 300px;
+    height: 270px;
   }
-} */
+  .hardware-content h1 {
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 796px) {
+  .hardware-content h1 {
+    align-items: center;
+  }
+}
+
+@media (max-width: 1158px) {
+  .hardware-content .icons {
+    top: 69px;
+  }
+}
+@media (max-width: 1060px) {
+  .hardware-content .icons {
+    top: 72px;
+  }
+}
+@media (max-width: 990px) {
+  .hardware-content .icons {
+    top: 86px;
+  }
+
+  .hardware-content h1 {
+    justify-content: center;
+  }
+}
+@media (max-width: 990px) {
+  .hardware-content .icons {
+    top: 86px;
+  }
+}
+@media (max-width: 820px) {
+  .hardware-content .icons {
+    top: 62px;
+  }
+}
+
+@media (max-width: 792px) {
+  .hardware-content .icons {
+    top: 67px;
+  }
+}
+@media (max-width: 768px) {
+  .hardware-content .icons {
+    top: 63px;
+  }
+}
+
+@media (max-width: 686px) {
+  .hardware-content .icons {
+    top: 73px;
+  }
+}
+
+@media (max-width: 530px) {
+  .hardware-content .icons {
+    top: 85px;
+  }
+}
+@media (max-width: 378px) {
+  .hardware-content .icons {
+    top: 85px;
+  }
+}
 
 @media (max-width: 1165px) {
   .cart:nth-child(4) {
@@ -206,6 +271,12 @@
     width: 100%;
     max-width: 300px;
   }
+  .img:nth-child(1) {
+    display: none;
+  }
+  .img {
+    width: 100%;
+    max-width: 230px;
 }
 
 @media (max-width: 983px) {
@@ -216,4 +287,12 @@
     width: 100%;
     max-width: 300px;
   }
+  .img:nth-child(2) {
+    display: none;
+  }
+  .img {
+    width: 100%;
+    max-width: 180px;
+}
+
 }
