@@ -236,15 +236,14 @@ nav a:focus {
 }
 
 .contact {
-  line-height: 30px;
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
-.contact h1 {
-  color: #ffffffa4;
-  font-size: clamp(1.063rem, 0.903rem + 0.8vw, 1.5rem);
+.contact h2 {
+  color: #fff;
+  font-size: clamp(0.875rem, 0.739rem + 0.68vw, 1.25rem);
 }
 
 .contact p {
@@ -259,7 +258,7 @@ nav a:focus {
   border-left: 0.1px solid #4f4969;
   font-size: 60px;
 }
-.btn-about button {
+.btn-main button {
   font-size: clamp(0.5rem, 0.417rem + 0.42vw, 0.75rem);
   font-weight: 700;
   padding: 13px 40px;
@@ -272,6 +271,11 @@ nav a:focus {
     rgba(187, 178, 227, 1) 100%
   );
   color: #343045;
+}
+
+.btn-main .icon ion-icon {
+  font-size: 45px;
+  color: #c0b7e8;
 }
 
 /* ? MAIN START */
@@ -362,7 +366,7 @@ nav a:focus {
   padding-bottom: 70px;
 }
 .about-content h1 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: clamp(1.625rem, 1.417rem + 1.04vw, 2.25rem);
   line-height: 60px;
 }
@@ -370,15 +374,17 @@ nav a:focus {
   display: flex;
   align-items: center;
   gap: 20px;
-  font-weight: 300;
+  font-weight: 200;
   font-size: clamp(1.625rem, 1.417rem + 1.04vw, 2.25rem);
 }
 .about-content img {
   max-width: 100px;
 }
+
 .lorem {
   max-width: 652px;
 }
+
 .lorem p {
   line-height: 25px;
   font-weight: 400;
@@ -403,19 +409,20 @@ nav a:focus {
 }
 
 .about-next-contnent h1 {
-  font-size: clamp(1.125rem, 0.898rem + 1.14vw, 1.75rem);
+  font-size: clamp(1.625rem, 1.417rem + 1.04vw, 2.25rem);
   line-height: 45px;
-  font-weight: 700;
+  font-weight: 600;
 }
 .about-next-contnent h2 {
-  font-weight: 300;
-  font-size: 36px;
+  font-weight: 200;
+  font-size: clamp(1.625rem, 1.417rem + 1.04vw, 2.25rem);
 }
 .about-next-contnent p {
   line-height: 25px;
   max-width: 630px;
   color: #fff;
   font-weight: 300;
+  font-size: clamp(0.75rem, 0.667rem + 0.42vw, 1rem);
 }
 .about-next-contnent button {
   font-size: clamp(0.5rem, 0.417rem + 0.42vw, 0.75rem);
@@ -445,7 +452,7 @@ nav a:focus {
   align-items: center;
 }
 .why-content h1 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: clamp(1.625rem, 1.417rem + 1.04vw, 2.25rem);
   line-height: 50px;
 }
@@ -453,7 +460,7 @@ nav a:focus {
   display: flex;
 
   gap: 20px;
-  font-weight: 300;
+  font-weight: 200;
   font-size: clamp(1.625rem, 1.417rem + 1.04vw, 2.25rem);
 }
 .why-content img {
@@ -478,6 +485,8 @@ nav a:focus {
 }
 
 .build {
+  width: 100%;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   gap: 10px;
@@ -485,8 +494,8 @@ nav a:focus {
 
 .cart {
   width: 100%;
-  max-width: 450px;
-  padding: 20px;
+  max-width: 500px;
+  padding: 20px 35px;
   border-radius: 40px;
   background: rgb(59, 54, 84);
   background: radial-gradient(
@@ -507,15 +516,16 @@ nav a:focus {
 
 .cart img {
   width: 100%;
-  max-width: 130px;
+  max-width: 120px;
   border-radius: 70px;
 }
 
 .cart p {
   width: 100%;
-  max-width: 280px;
-  font-size: clamp(0.5rem, 0.409rem + 0.45vw, 0.75rem);
-  line-height: 20px;
+  max-width: 300px;
+  padding: 5px;
+  font-size: clamp(0.469rem, 0.412rem + 0.28vw, 0.625rem);
+  line-height: 18px;
   color: #fff;
 }
 
@@ -544,3 +554,79 @@ nav a:focus {
   color: #343045;
 }
 /* ?  BUILD  END */
+
+/* ?  HARDWARE START */
+#hardware {
+  padding-block: 40px;
+}
+
+.hardware-content {
+  width: 100%;
+  height: 300px;
+  border-radius: 250px;
+  background: url("../image/woman.svg");
+}
+.hardware-content h1 {
+  padding: 110px;
+  font-weight: 700;
+  font-size: clamp(1.625rem, 1.417rem + 1.04vw, 2.25rem);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hardware-content h1 p {
+  font-weight: 250;
+}
+
+.hardware-content .icons {
+  background-color: #201e29;
+  width: 70px;
+  height: 70px;
+  border-radius: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 47px;
+  left: 0;
+}
+
+.hardware-content ion-icon {
+  padding: 7px;
+  border-radius: 40px;
+  background: rgb(135, 125, 181);
+  background: linear-gradient(
+    90deg,
+    rgba(135, 125, 181, 1) 26%,
+    rgba(160, 150, 203, 1) 67%,
+    rgba(187, 178, 227, 1) 100%
+  );
+  color: #433d60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hardware .hardware-img {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hardware .hardware-img {
+  width: 100%;
+  display: flex;
+}
+
+.hardware .img img {
+  padding: 20px;
+  width: 100%;
+  max-width: 220px;
+}
+/* ?  HARDWARE  END */
