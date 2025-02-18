@@ -170,18 +170,50 @@
   .img {
     width: 100%;
     max-width: 140px;
-}
- /* .hardware-content .icon {
+  }
+  /* .hardware-content .icon {
   display: flex;
   top: 0px;
   right: 153px;
   
 }  */
-.hardware .hardware-img {
-  justify-content: center;
-  align-items: center;
-}
+  .hardware .hardware-img {
+    justify-content: center;
+    align-items: center;
+  }
+  #vr {
+    padding-top: 250px;
+  }
 
+  .vr {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .why-content h2 img {
+    display: none;
+  }
+
+  .vr .lorenn p {
+    display: none;
+  }
+  .step:nth-child(2) {
+    display: none;
+  }
+  .design-content {
+    justify-content: center;
+  }
+  .input {
+    flex-direction: column;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }
 @media (max-width: 716px) {
   .hardware-content {
@@ -277,6 +309,17 @@
   .img {
     width: 100%;
     max-width: 230px;
+  }
+  .step:nth-child(4) {
+    display: none;
+  }
+
+  .sitemap {
+    display: none;
+  }
+  .footer span {
+    display: none;
+  }
 }
 
 @media (max-width: 983px) {
@@ -293,6 +336,11 @@
   .img {
     width: 100%;
     max-width: 180px;
-}
-
+  }
+  .step:nth-child(3) {
+    display: none;
+  }
+  .how {
+    display: none;
+  }
 }
