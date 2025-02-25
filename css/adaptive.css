@@ -372,6 +372,49 @@
   }
   .how button {
     width: 200px;
-    height: 40px;
+  }
+}
+
+@media (max-width: 639px) {
+  .input {
+    flex-direction: column;
+  }
+
+  .input input {
+    width: 350px;
+  }
+  .input2 input {
+    max-width: 350px;
+  }
+  .input3 input {
+    width: 350px;
+  }
+  .how button {
+    width: 200px;
+  }
+}
+
+@media (max-width: 420px) {
+  .input {
+    flex-direction: column;
+  }
+
+  .input input {
+    width: 300px;
+  }
+  .input2 input {
+    width: 300px;
+  }
+  .input3 input {
+    width: 300px;
+  }
+  .how button {
+    width: 200px;
+  }
+}
+
+@media (max-width: 620px) {
+  .hardware-content .icons {
+    display: none;
   }
 }
